@@ -5,3 +5,4 @@ Here, we are tasked with writitng a script that runs a C file through the prepro
 * The C file name should be saved in the variable $CFILE
 
 * The output should be saved in the file c.
+
