@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - I must create a program that prints the size of various types of files
+ * main - Must create program that prints the size of various types of files
  * Return: 0 (Desired Result)
  */
 int main(void)
-{ 
+{
 	char age;
 	int of;
 	long int ultron;
