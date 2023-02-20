@@ -5,11 +5,11 @@
 */
 int main(void)
 {
-	char age;
-	int of;
-	long int ultron;
-	long long int draws;
-	float nearer;
+	char = age;
+	int = of;
+	long int = ultron;
+	long long int = draws;
+	float = nearer;
 
 printf("Size of a char: %lu byte(s)\n" (unsigned long)sizeof(age));
 printf("Size of a char: %lu byte(s)\n" (unsigned long)sizeof(of));
