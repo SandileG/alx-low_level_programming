@@ -24,7 +24,7 @@ int _sqrt_recursion(int n)
  * Return: the natural sqaure root
  */
 
-int _sqrt(in n, int i)
+int _sqrt(int n, int i)
 
 {
 	int sqrt = i * i;
