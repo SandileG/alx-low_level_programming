@@ -1,1 +1,1 @@
-This is an introduction into the C programming language.
+This is an introduction to the C programming language.
