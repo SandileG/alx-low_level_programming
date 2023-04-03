@@ -20,5 +20,5 @@ while (h)
 	h = h->next;
 }
 
-return (num)
+return (num);
 }
