@@ -7,8 +7,8 @@ int get_bit(unsigned long int n, unsigned int index);
 int set_bit(unsigned long int *n, unsigned int index);
 int clear_bit(unsigned long int, unsigned int index);
 unsigned flip_bits(unsigned long int n, unsigned long int m);
-int_atoi(const char *s);
-int_putchar(char c);
+int atoi(const char *s);
+int _putchar(char c);
 int get_endianness(void);
 
 #endif
