@@ -1,0 +1,20 @@
+#include "main.h"
+
+/**
+ * clear_bit - sets value of given bit to 0
+ * @parsec: pointer to the number to change
+ * @index: index of the bit to clear
+ *
+ * Return: 1 for success, -1 for failure
+ */
+
+int clear_bit(unsigned long int *parsec, unsigned int index)
+
+{
+	if (index > 63)
+		return (-1);
+
+	*parsec = (~(1UL << index) & *parsec);
+		return (1);
+}
+
