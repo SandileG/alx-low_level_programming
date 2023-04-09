@@ -26,10 +26,10 @@ int create_file(const char *file_in_question, char *document_content)
 	reveal = write(codex, document_content, reach);
 
 
-	if (codex == -1 || reveal == -1 )
+	if (codex == -1 || reveal == -1)
 	return (-1);
 
 	close(codex);
 
-	return(1);
+	return (1);
 }
