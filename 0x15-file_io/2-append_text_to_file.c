@@ -6,8 +6,8 @@
 * @document_content: String to add at the end of file.
 *
 * Return:	-1 if function/filename is NULL
-* 		-1 if file doesn't exist or if no permission granted
-* 		 1 if successful
+*		-1 if file doesn't exist or if no permission granted
+*		 1 if successful
 */
 
 int append_text_to_file(const char *file_in_question, char *document_content)
