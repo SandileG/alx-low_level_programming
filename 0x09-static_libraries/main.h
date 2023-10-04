@@ -1,6 +1,7 @@
 #ifndef _MAIN_
 #define _MAIN_
 
+/* Function prototypes. */
 int _putchar(char c);
 int _islower(int c);
 int _isalpha(int c);
@@ -22,4 +23,5 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 
+/* MAIN_H */
 #endif
