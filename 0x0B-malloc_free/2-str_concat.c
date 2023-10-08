@@ -22,9 +22,9 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 
 	/* Calculate the lengths of the input strings. */
-	while (s1[len1])
+	while (s1[len1] != '\0')
 		len1++;
-	while (s2[len2])
+	while (s2[len2] != '\0')
 		len2++;
 
 	/* Allocate memory for the concatenated string. */
