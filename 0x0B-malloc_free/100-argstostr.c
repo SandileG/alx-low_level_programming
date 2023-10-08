@@ -47,7 +47,6 @@ char *argstostr(int ac, char **av)
 		*ptr = '\n';
 		ptr++;
 	}
-
 	/* Null-terminate the string. */
 	*ptr = '\0';
 	return (concat_str);
