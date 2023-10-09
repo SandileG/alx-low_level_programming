@@ -1,0 +1,1 @@
+In this project directory, we are continuing our observations regarding memory allocation. Here, we'll be looking spcifically at how to use the exit function, as well as to understand what the functions calloc and realloc from the standard library are used for.
