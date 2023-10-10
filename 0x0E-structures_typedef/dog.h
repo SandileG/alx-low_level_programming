@@ -8,13 +8,13 @@
  * @owner: owner of the dog (string).
  */
 
- struct dog
- 
- {
+struct dog
+
+{
 	char *name;
 	float age;
 	char *owner;
- };
+};
 
- /* DOG_H */
- #endif
+/* DOG_H */
+#endif
