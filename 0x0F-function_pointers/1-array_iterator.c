@@ -14,10 +14,10 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 	/* Check for NULL pointers to ensure safe execution. */
 	if (array == NULL || action == NULL)
 		return;
-	
+
 	for (size_t p = 0; p < size; p++)
 	{
-	/* Call the provided function on each element of the array. */	
+	/* Call the provided function on each element of the array. */
 		action(array[p]);
 	}
 }
