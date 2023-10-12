@@ -24,7 +24,6 @@ void print_all(const char * const format, ...)
 	float f;
 	char *str;
 
-	
 	va_start(args, format);
 
 	while (format && format[t])
@@ -56,7 +55,6 @@ void print_all(const char * const format, ...)
 		sep = ", ";
 		t++;
 	}
-
-	printf("\n");
-	va_end(args);
+va_end(args);
+printf("\n");
 }
