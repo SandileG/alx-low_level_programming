@@ -7,19 +7,25 @@ section .data
 section .text
 	extern printf
 
+
+
 global main
 
 
+
 main:
-	sub	rsp, 8
-	mov	rsi, hello
-	mov	rdi, format
-	xor	rax, rax
-	call	printf
+sub	rsp, 8
+mov	rsi, hello
+mov	rdi, format
+xor	rax, rax
+call	printf
 
-	mov	rsi, newline	; add the new line character
-	mov	rdi, format
-	call	printf
+; Add a new line character
+mov	rsi, newline	;Load newline character
+mov	rdi, format
+call	printf
 
-	add	rsp, 8
-	ret
+
+
+add	rsp,8
+ret
