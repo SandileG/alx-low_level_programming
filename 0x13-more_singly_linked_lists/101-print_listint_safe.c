@@ -21,8 +21,9 @@ size_t print_listint_safe(const listint_t *head)
 
 	while (current != NULL)
 	{
-	
+
 		size_t i;
+
 		for (i = 0; i < count; i++)
 		{
 			if (current == checked[i])
