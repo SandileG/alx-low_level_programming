@@ -1,6 +1,4 @@
 #include "lists.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 /**
  * print_listint_safe - Prints a listint_t linked list.
@@ -8,37 +6,28 @@
  *
  * Return: The number of nodes in the list.
  */
+
 size_t print_listint_safe(const listint_t *head)
 {
-	const listint_t *current;
-	size_t count = 0;
-	const listint_t *checked[1024];
+	const listint_t *slow, *fast;
+	size_t count;
 
-	if (head == NULL)
-		exit(98);
+	slow = fast = head;
+	count = 0;
 
-	current = head;
-
-	while (current != NULL)
+	while (slow && fast && fast->next)
 	{
-
-		size_t i;
-
-		for (i = 0; i < count; i++)
-		{
-			if (current == checked[i])
-			{
-				printf("[%p] %d\n", (void *)current, current->n);
-				return (count);
-			}
-		}
-
-		printf("[%p] %d\n", (void *)current, current->n);
-		checked[count] = current;
+		printf("[%p] %d\n", (void *)slow, slow->n);
 		count++;
-		if (count > 1024)
+
+		slow = slow->next;
+		fast = fast->next->next;
+
+		if (slow == fast)
+		{
+			printf("-> [%p] %d\n", (void *)slow, slow->n);
 			break;
-		current = current->next;
+		}
 	}
 
 	return (count);
