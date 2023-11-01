@@ -8,8 +8,8 @@
  * Return: the actual number of letters it could read and print.
  */
 
- ssize_t read_textfile(const char *filename, size_t letters)
- {
+ssize_t read_textfile(const char *filename, size_t letters)
+{
 	int fd, read_count, write_count;
 	char *buffer;
 
@@ -46,4 +46,4 @@
 	free(buffer);
 	close(fd);
 	return (read_count);
- }
+}
