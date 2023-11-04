@@ -1,7 +1,5 @@
 #include "main.h"
 
-#define BUFFER_SIZE 1024
-
 /**
  * copy_file - Copies the content of one file to another.
  * @source_fd: File descriptor of the source file.

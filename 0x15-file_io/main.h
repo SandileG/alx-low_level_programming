@@ -10,7 +10,7 @@
 #include <stdlib.h>
 
 /* Buffer Sizes */
-#define BUFFER_SIZE 128
+#define BUFFER_SIZE 1024
 
 /* Function Declarations */
 int _putchar(char c);
@@ -25,19 +25,5 @@ void print_osabi(unsigned char *e_ident);
 void print_abiversion(unsigned char *e_ident);
 void print_type(unsigned short e_type);
 void print_entry(unsigned long int e_entry);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #endif /* MAIN_H */
