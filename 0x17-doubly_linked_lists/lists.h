@@ -28,6 +28,4 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index);
 dlistint_t *insert_dnodeint_at_head(dlistint_t **h, int n);
 dlistint_t *traverse_to_index(dlistint_t *h, unsigned int idx);
 
-/* More function prototypes can be added here as needed */
-
 #endif /* LISTS_H */

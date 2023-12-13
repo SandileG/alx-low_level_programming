@@ -1,7 +1,5 @@
 #include "lists.h"
 
-#define COUNT_INIT 0
-
 /**
  * insert_dnodeint_at_head - Inserts a new node at the head of the list.
  * @h: Pointer to the head of the list.
